@@ -1,0 +1,181 @@
+h2, h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* .dropdown-toggle[aria-expanded="true"]:after {
+    transform: rotate(180deg);
+  }
+   */
+
+/*for the animation*/
+/* .dropdown-toggle:after {
+    transition: 0.3s;
+} */
+
+a:hover {
+    color: #8ed8ed;
+}
+
+
+#title {
+    border-bottom-style: solid;
+    border-width: 0.2px;
+}
+
+.navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-nav .nav-link {
+    margin: 0 1.5rem;
+    /* font-family: 'Nunito Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+
+    /* font-family: 'Nunito', sans-serif; */
+    /* color: #fff; */
+}
+
+.navbar-nav {
+    margin-right: 1.5rem;
+
+}
+
+
+.navbar-brand {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-left: 3rem;
+    /* color: #fff; */
+}
+
+.dropdown-item {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.dropdown-divider {
+    margin: 0;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #8ed8ed;
+}
+
+.dropdown-menu {
+    padding: 0;
+}
+
+@media only screen and (min-width: 992px) {
+    .dropdown-menu {
+        left: 50%;
+        right: auto;
+        text-align: center;
+        transform: translate(-50%, 0);
+    }
+}
+
+
+.text-align-left {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2rem;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.footerhr {
+    border-style: none;
+    border-top-style: solid;
+    border-top-width: 2px;
+}
+
+
+.footer-uiuc {
+    width: 80%;
+    margin-top: 2rem;
+}
+
+.footer-noaa {
+    width: 60%;
+    margin-top: 2rem;
+}
+
+.icon-footer {
+    margin-left: 1rem;
+}
+
+.fa-twitter{
+    display: inline-block;
+    text-align: left;
+}
+
+.end-text {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+
+.row{
+    margin: 0;
+}
+
+
+
+
+.centered {
+    text-align: center;
+}
+
+.navbar-dark .navbar-toggler {
+    color: unset;
+}
+.navbar-light .navbar-brand {
+    color: #000000!important;
+}
+
+.fa-search {
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    background-color: white;
+    border-style: none;
+    border-bottom: 0.1px solid rgb(60, 60, 60, 0.7);
+}
+
+.footer-hr{
+    border-style: none;
+    border-bottom: 0.1px solid rgb(0, 0, 0)!important;
+}
+
+#footer{
+    margin-top: 30rem;
+}
+
+footer div p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+}

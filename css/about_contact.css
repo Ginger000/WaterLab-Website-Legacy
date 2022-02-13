@@ -1,0 +1,39 @@
+/* .banner{
+    padding: 15rem 15rem 5rem 15rem;
+} */
+img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+/* To avoid addign !important, there must be a parent container for "container-fluid" */
+#contentGroup .container-fluid{
+    margin-top: 10rem;
+    width: 80%;
+}
+
+/* .address1{
+    justify-items:flex-end;
+} */
+
+.specialAddress{
+    color: rgb(2, 183, 255);
+}
+.email{
+    margin-bottom: 0;
+}
+.twitter{
+    color: black;
+}
+
+#footer{
+    margin-top: 10rem!important;
+}
+@media only screen and (max-width: 992px) {
+    #contentGroup .container-fluid{
+        margin-top: 5rem;
+        width: 80%;
+    }
+   
+}

@@ -1,0 +1,249 @@
+/* html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: yellow;
+}
+*/
+/* body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-height: 100%;
+    background: green;
+    float: left;
+    width: 100%;
+}  */
+
+/* html,body{ margin:0; padding:0; height:100%; width:100%; }
+.fullscreen{
+  height:100%;
+  width:100%;
+  overflow:hidden; 
+} */
+
+html, body {
+    height: 100%;
+  }
+body {
+    display: flex;
+}
+
+.fullscreen{
+    height: 98vh!important;
+    min-height: 0; 
+    min-width: 0;
+    display: grid;
+    /* width: 1200px;
+    height: auto; */
+    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-rows: repeat(3, 1fr);
+    
+}
+
+.element{
+    overflow: auto;  
+    /* background-color: coral; */
+    min-width: 0; 
+    min-height: 1fr;
+
+    max-height: 1fr;
+    
+}
+
+/* .test{
+    object-fit: contain;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+} */
+h1{ 
+    display: inline;
+    font-weight: bold;
+    color: rgb(27, 163, 253);
+    letter-spacing: 2vw;
+    padding-left: 1.5rem;
+    padding-right: 0!important;
+    margin-right: 0!important;
+    
+}
+a{color: black;}
+a:hover{
+    color: rgb(33, 196, 236)!important;
+}
+.centerNav a:link {text-decoration: none}
+
+.centerNav{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    justify-self: center;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.head-flex{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: nowrap; */
+    
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p {
+    text-align:justify;
+    }
+
+.flex-container a{
+    padding-left: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    color: grey;
+}
+
+/* .flex-container a :hover{
+    color: rgb(0, 217, 255)!important;
+} */
+
+.about{
+    padding: 1rem 1rem 2rem 3rem;
+    grid-column: 1/2;
+    grid-row: 1/4;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.largerText{
+    font-size: 1.5rem;
+}
+
+.viewportText{
+    font-size: 1.5vh;
+}
+
+.head{
+    display: inline-block;
+    
+}
+
+.contact{
+    padding: 1rem 1rem 1rem 1rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.team{
+    padding: 1rem 1rem 1rem 1rem;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.eventImage{
+    padding: 0 1rem 1rem 3rem;
+    grid-column: 1/3;
+    grid-row: 3/4;
+    /* text-align: center; */
+    justify-self: right;
+}
+
+.eventText{
+    padding: 0rem 3rem 0rem 0rem;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.element img{
+    max-width: 100%;
+    height: auto;
+}
+
+.educationText{
+    padding: 1rem 3rem 1rem 0rem;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.educationImage1{
+    padding: 2rem 3rem 1rem 0rem;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.educationImage2{
+    padding: 0rem 3rem 1rem 0rem;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.researchText{
+    padding: 1rem 2rem 2rem 3rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.researchImage{
+    padding: 2rem 3rem 1rem 3rem;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.designText{
+    padding: 1rem 1rem 1rem 0rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.designImage{
+    padding: 1rem 3rem 0rem 0rem;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    /* text-align: center; */
+    justify-self: left;
+}
+
+.collaborativeText{
+    padding: 0rem 1rem 1rem 1rem;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    /* text-align: center; */
+    justify-self: center;
+}
+
+.collaborativeImage{
+    padding: 0 1rem 1rem 3rem;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    /* text-align: center; */
+    justify-self: left;
+}
+

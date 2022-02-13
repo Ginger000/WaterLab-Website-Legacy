@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicago Geological Infiltration Map</title>
+  <link rel="shortcut icon" type="image/png" href="images/logo/waterlab_logo.png">
+
+  <meta name="description" content="Chicago Geological Infiltration Map and Research">
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+  <link rel="stylesheet" href="css/research_3.css">
+</head>
+
+<body>
+  <header id="header"></header>
+  <section id="contentGrid" class="container-fluid">
+        <div class="row">
+            <div class="leftHeight col-lg-6 col-md-12 col-sm-12 sdgWindow">
+                <div id="seadragon-viewer">
+                </div>
+                <div class="dataSourceTable">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="thTitle">#</th>
+                            <th scope="col" class="thTitle">DATA SOURCE</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>
+                              United States Geologic Survey (USGS) Aereal Geology, Illinois-Indiana, Calumet Quadrangle,1902
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>
+                              Figure 17 “Areas with permeable glacial deposits 20-feet thick or greater and within 50 feet of land surface within the Lake Michigan surface watershed, Cook County, northeastern Illinois, from “Preliminary Assessment of the Potential for Inducing Stormwater Infiltration in Cook County, Illinois” Open-File Report 2009-1212, by U.S. Department of the Interior, U.S. Geologic Survey                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>
+                              Photograph: Mary Pat McGuire
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="mapDesignerTable">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="thTitle">#</th>
+                            <th scope="col" class="thTitle">MAP DESIGNER</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Mary Pat McGuire</td>
+                            <td>Landscape Architect</td>
+                            <td>Water Lab</td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                </div>
+                <div class="copyRightTable">
+                    <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="thTitle">#</th>
+                            <th scope="col" class="thTitle">COPYRIGHT POLICY</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Please contact Water Lab for permission to use images in any publication or public presentation. Credit must be give to: McGuire/WATER LAB</td>
+
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+            <div class="container-fluid col-lg-6 col-md-12 col-sm-12">
+                <div class="textForMap">
+                    <h2>Chicago Geologic Substrata Infiltration</h2>
+                    <br>
+                    <p>
+                      Because rainwater is a significant input into the combined system, why not keep rainwater out of it? Are there places we can infiltrate water and keep it in the Lake Michigan watershed? 
+                      <br><br>
+                      This excellent question led us to explore the potential to infiltrate water in Chicago, right in neighborhoods, right in industrial areas, and in streets that run through both. In looking back at the hydrologic history and the glacial soils, we located a series of glacial deposits at the surface and subsurface--composed of sands and gravels--capable of infiltrating water, and potentially creating recharge zones for Lake Michigan. Thus, the glaciated landscape of Chicago actually contains one of the keys to unlocking the system. 
+                      <br><br>
+                      The U.S. Geologic Survey of 1902 mapped dune sand and sand & gravel soil types that exist in the coastal area, a roughly 5-10 miles width of the shoreline. These soils can infiltrate, wash, and return rainwaters underground and to the Lake. By creating opportunities for rainwater that is ponding at the surface to sink into lower soil layers, we can restore dried out soils and vegetation and create a healthier local microclimate by encouraging hydric and thermal exchange through the ground surface. Knowledge of soil variability across the City provides a rich and productive way to re-imagine and re-structure the city by managing water in a more specific yet comprehensive manner. 
+                      <br><br>
+                      The image on the left is of sand, dune sand, and gravelly soils (cut-out from the USGS 1902 survey). The image at right combines a depiction of these same soil areas from a 2009 USGS map with other landscape networks as part of the Millennium Reserve and the glacial remnants of the Indiana coast area to the east. 
+                      <br><br>
+                      To respond to water issues across the city, this research suggests that there is a network of urban lands where rainwater can be captured and conveyed through passive infiltration features - that together, will help to resolve the region's long term relationship with stormwater. 
+                      <br><br>
+                      Part of this strategy will include creating a new interface between urban surface and geologic substrata permeability and transport, increasing the performance potential of both layers.
+                </P>
+                      </div>
+            </div>
+        </div>
+    </section>
+
+  <script src="libraries/openseadragon/openseadragon.min.js"></script>
+  <footer id="footer"></footer>
+  <script src="js/research_3.js"></script>
+</body>
+
+</html>

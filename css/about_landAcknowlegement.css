@@ -1,0 +1,17 @@
+section.container-fluid{
+    text-align: justify;
+    margin-top: 20rem;
+    width: 70%;
+}
+
+section.container-fluid h1{
+    text-align: center;
+}
+
+@media only screen and (max-width: 576px){
+    section.container-fluid{
+        
+        margin-top: 8rem;
+        width: 90%;
+    }
+}

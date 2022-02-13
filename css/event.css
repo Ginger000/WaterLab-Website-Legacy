@@ -1,0 +1,52 @@
+#eventWall{
+    margin-top: 8rem;
+}
+
+.status{
+    margin-bottom: 0;
+}
+
+.asphalt{
+    padding: 10rem;
+    padding-top: 16rem;
+}
+
+.waterwork{
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-left: 3rem;
+}
+
+.card img{
+    transition: 1s;
+}
+
+.card{
+    border: none!important;
+}
+
+.card img:hover{
+    /* filter: grayscale(100%); */
+    transform: scale(1.1);
+    /* -webkit-transition: transform 1s ease-in-out; */
+
+}
+
+.announcement{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .asphalt{
+        padding: unset;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
+    .waterwork{
+        padding: unset;
+        padding-top: unset;
+        padding-left: unset;
+    }
+}

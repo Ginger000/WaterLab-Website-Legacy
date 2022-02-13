@@ -1,0 +1,162 @@
+#newsFeed{
+    /* margin-top: 5rem; */
+}
+
+/* .tweet1{
+    width: 20%;
+    height: 20%;
+}
+
+.npr{
+    width: 20%;
+    height: 200%; 
+} */
+.row-height{
+    height: 100vh;
+}
+
+.left{
+    /* background-color: rgb(255, 238, 5); */
+    height: 100%;
+    overflow-y: scroll;
+  }
+li b{
+    color: rgb(88, 88, 88);
+}
+.internalNews{
+    color: rgb(0, 190, 248);
+}
+.externalNews{
+    margin-top: 7rem;
+    color: rgb(0, 190, 248);
+}
+div .left{
+    /* background-color: rgb(18, 200, 255); */
+    height: 100%;
+    overflow-y: scroll;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    
+}
+div .right{
+    /* background-color: rgb(18, 200, 255); */
+    height: 100%;
+    overflow-y: scroll;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+  }
+.left-content{
+    margin-top: 2rem;
+    columns: 2;
+    column-gap: 40px;
+}
+.left-content .box{
+    width: 100%;
+    margin:0 0 20px;
+    /* padding: 10px; */
+    background: #fff;
+    overflow: hidden;
+    break-inside: avoid;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.left-content .box1{
+    border: 0.1px solid rgb(192, 192, 192);
+    padding: 1rem;
+}
+
+.left-content .box img{
+    max-width: 100%;
+}
+
+.left-content .box blockquote{
+    object-fit: cover;
+    max-width: 100%;
+    
+}
+
+div .left-new{
+    margin-top: 1.5rem;
+    
+}
+
+.box iframe{
+    max-width: 100%;
+}
+
+.right-content{
+    margin-top: 7rem;
+}
+
+.right-content h5{
+    color: rgb(22, 191, 243);
+}
+#footer{
+    margin-top: 0!important;
+}
+
+/*Remove the scrollbar from Chrome, Safari, Edge and IE*/
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+* {
+  -ms-overflow-style: none !important;
+}
+
+.linkT{
+    color: rgb(90, 90, 90);
+    text-decoration: none;
+}
+
+.linkT:hover{
+    color:rgb(70, 185, 242); 
+}
+
+.navbar-brand {
+    font-size: 1.6rem!important;
+}
+
+nav .navbar{
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+}
+
+.highlight-bold{
+    font-weight: bold;
+}
+
+.overflow-control{
+    object-fit: cover;
+    width: 100%;
+}
+
+blockquote{
+    object-fit: cover;
+    /* width: 100%; */
+    /* max-height: 100%; */
+}
+
+@media only screen and (max-width: 576px) {
+    div .right{
+        /* background-color: rgb(18, 200, 255); */
+        height: 100%;
+        overflow-y: scroll;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+      }
+}
+
+div .card{
+    width:45%;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+.bottom-margin{
+    margin-bottom: 0.5rem;
+}
